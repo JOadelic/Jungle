@@ -60,6 +60,19 @@ main section.categories-show {
         }
       }
 
+      aside.sold {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        background-color: rgb(169, 119, 119);
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 20px;
+        font-size: 0.8em;
+        color: white;
+        font-weight: 400
+      }
+
     }
   }
 }
