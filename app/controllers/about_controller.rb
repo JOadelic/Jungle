@@ -1,6 +1,6 @@
-class AboutController < ApplicationController::Base
+class AboutController < ApplicationController
   def show
-    @message = 'testing testing'
-    render 'about'
+    # @message = 'testing testing'
+    
   end
 end
