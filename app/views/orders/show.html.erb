@@ -18,15 +18,14 @@
         <td>
           <h3><%= item.product.name %></h3>
           <p><%= item.product.description %></p>
-          <br>
           <p><h3>QUANTITY: <%= item.quantity %></h3></p>
+        </tr>
+        </td>
           
           
-          </td>
-          </tr>
           
-          <% end %>
-          <p><h3>TOTAL: <%= number_to_currency(@order.total_cents / 100) %></h3></p>
+     <% end %>
+     <p><h3>TOTAL: <%= number_to_currency(@order.total_cents / 100) %></h3></p>
 
 
   </div>
